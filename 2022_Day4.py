@@ -7,7 +7,7 @@ def find_redundancy(pairs):
         second = list(map(int, i[1].split("-")))
         if (first[0] <= second[0]) and (first[1] >= second[1]):
             counter += 1
-        if (first[0] >= second[0]) and (first[1] <= second[1]):
+        elif (first[0] >= second[0]) and (first[1] <= second[1]):
             counter += 1
     return counter
 
