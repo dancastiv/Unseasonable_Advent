@@ -19,6 +19,6 @@ for window in sliding_window:
 for i in range(1, len(sums)):
     if sums[i] > sums[i-1]:
         counter2 += 1
-
+        
 print(f"The total number of depth increases is: {counter1}.")
 print(f"The total number of depth increases for the sliding windows is {counter2}.")
