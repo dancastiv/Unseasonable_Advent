@@ -17,7 +17,7 @@ for game in games:
         if letter.isdigit():
             num = num + letter
         game[0] = num
-for game in games:
+
 
 
 print(games)
